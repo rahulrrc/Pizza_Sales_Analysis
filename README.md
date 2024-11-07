@@ -3,6 +3,7 @@ Pizza_Sales_Analysis
 The "Pizza Sales Analysis" project is an industrial venture aimed at understanding and optimizing pizza sales for year 2022 through data analytics. This project was conducted in the final year of my Master of Computer Applications (MCA) program, this project seeks to provide valuable insights into pizza sales, helping businesses refine their offerings and optimize operations.
 
 The primary objectives include:
+
 1.Understanding Customer Preferences: Identifying the most and least popular pizzas, and understanding the preferences for different pizza sizes and categories.
 
 2.Optimizing Operations: Analyzing sales trends to improve operational efficiency and better manage inventory and staffing.
