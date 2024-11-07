@@ -11,6 +11,7 @@ The primary objectives include:
 3.Driving Business Growth: Using insights from data analysis to inform marketing strategies, product development, and overall business strategy.
 
 The project employs a combination of SQL, Excel, and Power BI to handle, analyze, and visualize the pizza sales data:
+
 -SQL: Used for querying and managing the data stored in databases, enabling efficient extraction and manipulation of data.
 
 -Excel: Utilized for data cleaning, basic analysis, and initial visualizations, providing a flexible platform for data manipulation.
