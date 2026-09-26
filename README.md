@@ -106,8 +106,8 @@ The project includes detailed static reports (`Pizza_Sales_Report_Overview.pdf`,
 
 ## 👨‍💻 Author
 
-* **GitHub:** rahulrrc / Rahul M Ramchandani
+* **GitHub:** [rahulrrc / Rahul M Ramchandani](https://github.com/rahulrrc)
 
 
 * **Email:** rahulramchand505@gmail.com
-* **LinkedIn:** Rahul M Ramchandani
+* **LinkedIn:** [Rahul M Ramchandani](https://www.linkedin.com/in/rahul-m-ramchandani/)
