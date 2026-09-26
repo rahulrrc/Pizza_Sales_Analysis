@@ -1,23 +1,82 @@
-Pizza_Sales_Analysis
+Pizza-Sales-Data-Analysis
 
-The "Pizza Sales Analysis" project is an industrial venture aimed at understanding and optimizing pizza sales for year 2022 through data analytics. This project was conducted in the final year of my Master of Computer Applications (MCA) program, this project seeks to provide valuable insights into pizza sales, helping businesses refine their offerings and optimize operations.
+End-to-end pizza sales analytics project covering data exploration, SQL business analysis, and comprehensive reporting — built to identify sales trends, customer purchasing behavior, and revenue drivers.
 
-The primary objectives include:
+Business Problem
 
-1.Understanding Customer Preferences: Identifying the most and least popular pizzas, and understanding the preferences for different pizza sizes and categories.
+Analyze pizza sales data to identify key performance indicators (KPIs), understand customer ordering patterns, and provide actionable insights to optimize inventory and increase profitability.
 
-2.Optimizing Operations: Analyzing sales trends to improve operational efficiency and better manage inventory and staffing.
+Key Result
 
-3.Driving Business Growth: Using insights from data analysis to inform marketing strategies, product development, and overall business strategy.
+Comprehensive analysis of pizza sales, identifying peak ordering times, best-selling pizza categories, and revenue generation metrics.
+Full findings and recommendations: Pizza_Sales_Report_Insights.pdf and Pizza_Sales_Report_Overview.pdf
 
-The project employs a combination of SQL, Excel, and Power BI to handle, analyze, and visualize the pizza sales data:
+Tech Stack
 
--SQL: Used for querying and managing the data stored in databases, enabling efficient extraction and manipulation of data.
+| Stage | Tool |
+| --- | --- |
+| Data Source | Excel (`pizza sales data.xlsx`)
 
--Excel: Utilized for data cleaning, basic analysis, and initial visualizations, providing a flexible platform for data manipulation.
+ |
+| Business Analysis | SQL (`Pizza Query.sql`)
 
--Power BI: Leveraged for advanced data visualization and deeper analysis, allowing for the creation of interactive and insightful dashboards.
+ |
+| Reporting & Presentations | PowerPoint (`Pizza Sales Analysis.pptx`, `pizza sales stakeholder presentation.pptm`), PDF
 
-By integrating these tools, the project creates a powerful workflow that transforms raw sales data into actionable insights, ultimately helping pizza businesses to make informed decisions and enhance their competitive edge.
+ |
 
+Project Workflow
 
+Raw Excel Dataset → SQL (analysis & business queries) → PowerPoint (stakeholder presentations) → PDF (insights & overview reports)
+
+Folder Structure
+
+├── pizza sales data.xlsx                             # raw source data
+├── Pizza Query.sql                                   # SQL business analysis queries
+├── Pizza Sales Analysis.pptx                         # main analysis presentation
+├── pizza sales stakeholder presentation.pptm         # presentation tailored for stakeholders
+├── Pizza_Sales_Report_Overview.pdf                   # high-level overview report
+├── Pizza_Sales_Report_Insights.pdf                   # detailed client-facing insights report
+└── README.md                                         # project documentation
+
+Data Model
+
+Relational analysis performed directly on the pizza sales dataset, aggregating order details, pizza types, and sales records.
+
+Data Cleaning Summary
+
+Standardized date and time formats for accurate trend analysis
+Checked for and handled any missing or null values in order records
+Aggregated pizza categories, sizes, and pricing for accurate revenue calculations
+
+Business Questions Answered
+
+What is the total revenue and total number of pizza orders?
+Which pizza sizes and categories generate the highest revenue?
+What are the peak days and times for customer orders?
+What are the best and worst-selling pizzas?
+What is the average order value?
+Full queries: Pizza Query.sql
+
+Recommendations
+
+Optimize inventory for top-selling pizzas and prepare staffing for peak ordering days/times.
+Introduce targeted promotions or discounts during slow operational hours to boost sales.
+Re-evaluate or phase out the worst-performing pizza variations to reduce ingredient waste.
+Leverage the high-revenue pizza categories for future marketing campaigns.
+
+Dashboard / Reporting
+
+The project includes detailed static reports (`Pizza_Sales_Report_Overview.pdf`, `Pizza_Sales_Report_Insights.pdf`) and interactive slide decks (`Pizza Sales Analysis.pptx`, `pizza sales stakeholder presentation.pptm`) intended for stakeholder review and business strategy planning.
+
+How to Reproduce
+
+Data: Review the raw dataset in `pizza sales data.xlsx`.
+SQL: Run `Pizza Query.sql` against the imported dataset in your SQL database to view the business queries.
+Presentations: Open the PPTX, PPTM, and PDF files to view the final compiled insights and overview.
+
+Author
+
+Rahul M Ramchandani
+Email: rahulramchand505@gmail.com
+LinkedIn: Rahul M Ramchandani
